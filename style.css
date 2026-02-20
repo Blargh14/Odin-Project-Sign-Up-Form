@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+}
+
+.graphic-left {
+    width: 37.5%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #161117, #FBFEF7);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.inner-content {
+    padding-left: 40px;
+    background-color: #F9FAFB;
+    flex-grow: 1;
+}
+
+#form-section {
+    flex-grow: 0;
+    background-color: white;
+}
