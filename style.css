@@ -14,11 +14,27 @@ body {
 
 #image-container {
     width: 100%;
+    position: relative;
 }
 
 img {
     width: 100%;
     object-fit: contain;
+}
+
+#image-credit {
+    width: 100%;
+    bottom: 5px;
+    left: 0px;
+    text-align:center;
+    position: absolute;
+}
+
+#image-credit a:link,
+#image-credit a:visited,
+#image-credit a:hover,
+#image-credit a:active {
+    color: black;
 }
 
 .main-content {
