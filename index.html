@@ -27,7 +27,7 @@
         </div>
         <div class="inner-content" id="form-section">
             I hereby obey. -You, probably
-            <form>
+            <form id="signup">
                 <div>
                     <label for="fname">FIRST NAME</label><br>
                     <input type="text" id="fname"><br>
@@ -40,13 +40,16 @@
                     <label for="lname">LAST NAME</label><br>
                     <input type="text" id="lname"><br>
                     <label for="phone">PHONE NUMBER</label><br>
-                    <input type="text" id="phone"><br>
+                    <input type="tel" id="phone"><br>
                     <label for="confirmpword">CONFIRM PASSWORD</label><br>
                     <input type="password" id="confirmpword" required>
                 </div>
             </form>
         </div>
-        <div class="inner-content"></div>
+        <div class="inner-content" id="loginarea">
+            <button form="signup" type="submit">Create Account</button><br>
+            Already have an account? <a href="" id="loginlink">Log In</a>
+        </div>
     </div>
 
 <script src="script.js"></script>

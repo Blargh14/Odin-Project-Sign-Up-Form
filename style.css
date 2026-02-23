@@ -64,6 +64,7 @@ img {
     background-color: #F9FAFB;
     flex-grow: 1;
     position: relative;
+    flex-basis: 0%;
 }
 
 #site-descriptor {
@@ -99,7 +100,7 @@ input {
     font-size: 18px;
     padding: 5px 0px 5px 10px;
     margin-right: 75px;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #E5E7EB;
     border-radius: 5px;
     background-color: #FFFEFE;
 }
@@ -112,4 +113,27 @@ input:focus {
 
 input:invalid {
     border: 1px solid #BB0000;
+}
+
+button {
+    margin: 40px 0px;
+    padding: 15px 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #596D48;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#loginlink:link,
+#loginlink:visited,
+#loginlink:hover,
+#loginlink:active {
+    color: #596D48;
+    text-decoration: none;
+}
+
+#loginarea {
+    font-size: 20px;
 }
