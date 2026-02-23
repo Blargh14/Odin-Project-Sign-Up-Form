@@ -93,3 +93,23 @@ label {
     margin-top: 20px;
     letter-spacing: 1px;
 }
+
+input {
+    width: 250px;
+    font-size: 18px;
+    padding: 5px 0px 5px 10px;
+    margin-right: 75px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    background-color: #FFFEFE;
+}
+
+input:focus {
+    outline: 0;
+    border: 1px solid blue;
+    box-shadow: 3px 3px 5px #DDDDDD;
+}
+
+input:invalid {
+    border: 1px solid #BB0000;
+}
