@@ -78,10 +78,18 @@ img {
     padding: 20px 0px 30px 40px;
     background-color: white;
     font-size: 30px;
+    color: #333333;
     box-shadow: 5px 5px 5px #DDDDDD;
     z-index: 1;
 }
 
 form {
     display: flex;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 13px;
+    margin-top: 20px;
+    letter-spacing: 1px;
 }
